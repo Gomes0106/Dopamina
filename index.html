@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dopamine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="notifications"></div>
+
+<header class="hero">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1>DOPAMINA</h1>
+
+    <p class="subtitle">
+      O vício em recompensas rápidas
+    </p>
+
+    <p class="description">
+      Vídeos curtos, notificações, likes e conteúdos infinitos
+      estão mudando a forma como nosso cérebro busca prazer.
+      A dopamina é um neurotransmissor essencial produzido pelo cérebro que atua no sistema de recompensa, motivação, prazer, memória e controle motor
+    </p>
+
+    <a href="#problem" class="btn">Entrar no Loop</a>
+  </div>
+</header>
+
+<section id="problem" class="problem-section">
+  <div class="container">
+    <h2>O Problema</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>FOMO</h3>
+        <p>
+          O medo de perder algo importante faz as pessoas
+          permanecerem conectadas o tempo inteiro.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Dopamina Instantânea</h3>
+        <p>
+          Cada curtida, notificação ou vídeo curto gera pequenas
+          recompensas no cérebro.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Consequências</h3>
+        <p>
+          Ansiedade, procrastinação, perda de foco e dificuldade
+          de concentração.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="video-section">
+  <div class="container">
+    <h2>O Loop Infinito</h2>
+
+    <div class="video-grid">
+
+      <iframe
+        src="https://www.youtube.com/embed/5mGuCdlCcNM"
+        title="Vídeo 1"
+        allowfullscreen>
+      </iframe>
+
+      <iframe
+        src="https://www.youtube.com/embed/cKaWJ72x1rI"
+        title="Vídeo 2"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+  </div>
+</section>
+
+<section class="quiz-section">
+  <div class="container">
+
+    <h2>Você está preso no ciclo?</h2>
+
+    <div class="quiz-box">
+
+      <div class="question active">
+        <h3>Você pega o celular sem perceber?</h3>
+
+        <button onclick="nextQuestion(1)">Sim</button>
+        <button onclick="nextQuestion(0)">Não</button>
+      </div>
+
+      <div class="question">
+        <h3>Você passa horas vendo vídeos curtos?</h3>
+
+        <button onclick="nextQuestion(1)">Sim</button>
+        <button onclick="nextQuestion(0)">Não</button>
+      </div>
+
+      <div class="question">
+        <h3>Você sente dificuldade em focar?</h3>
+
+        <button onclick="nextQuestion(1)">Sim</button>
+        <button onclick="nextQuestion(0)">Não</button>
+      </div>
+
+      <div class="question">
+        <h3>O silêncio parece entediante?</h3>
+
+        <button onclick="nextQuestion(1)">Sim</button>
+        <button onclick="nextQuestion(0)">Não</button>
+      </div>
+
+      <div id="result"></div>
+
+    </div>
+  </div>
+</section>
+
+<section class="solution-section">
+  <div class="container">
+
+    <h2>JOMO - A Solução</h2>
+
+    <div class="cards">
+
+      <div class="card solution">
+        <h3>Desative notificações</h3>
+      </div>
+
+      <div class="card solution">
+        <h3>Reduza vídeos curtos</h3>
+      </div>
+
+      <div class="card solution">
+        <h3>Vai pisar em uma grama</h3>
+      </div>
+
+      <div class="card solution">
+        <h3>Dedique um tempo a você mesmo</h3>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="experiment">
+  <div class="container">
+
+    <h2>Experiência Pessoal</h2>
+
+    <div class="experiment-box">
+      <p>
+        Durante alguns dias, reduzi o uso de vídeos curtos e
+        desliguei notificações desnecessárias, parei com o uso de instagram por um dia.
+      </p>
+
+      <ul>
+        <li>Foquei melhor nos estudos</li>
+        <li>Menos ansiedade</li>
+        <li>Melhor concentração</li>
+        <li>Menos distrações</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <h2>“Desconectar também é viver.”</h2>
+  <p></p>
+    <span>
+    © 2026 Guilherme Gomes — Todos os direitos reservados.
+  </span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
