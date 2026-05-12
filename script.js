@@ -3,7 +3,7 @@ const notifications = [
   'Você recebeu uma curtida!',
   'Só mais um vídeo...',
   'Nova tendência disponível!',
-  'O Vasco Perdeu denovo',
+  'O São Paulo Perdeu denovo',
   'Nova notificação recebida!'
 ];
 
